@@ -1,0 +1,48 @@
+* {
+    margin: 5px;
+    padding: 2px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    background-color: lightgray;
+}
+
+
+main {
+    border: 2px double brown;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    background-color: rgba(199, 198, 198, 0.8);
+}
+
+input {
+    display: block;
+    
+    border-radius: 5px;
+    background-color: lightyellow;
+
+}
+
+button {
+    padding: 10px;
+
+    border-radius: 5px ;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+
+    min-height: 100px;
+}
